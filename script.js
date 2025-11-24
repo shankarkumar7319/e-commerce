@@ -1,8 +1,14 @@
-const bar = document.getElementById('bar');
-const nav = document.getElementById('navbar');
+let card = document.querySelectorAll(".product");
+let feature = document.getElementById("features");
+let heroo = document.querySelector("#hero");
+let bg = document.querySelector("#bg");
 
-if (bar) {
-    bar.addEventListener('click', () => {
-        nav.classList.add('active');
-    })
+function shops() {
+    mainPage.style.display="none";
+    heroo.style.display="none";
+    bg.style.display="none";
+    feature.style.display = "none";
 }
+
+
+
